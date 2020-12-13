@@ -1,0 +1,12 @@
+# we do not need node_modules. we will create our own
+**/node_modules
+
+# we do not need tests at runtime
+**/test
+
+# No need of documentation at runtime
+README.md
+
+#Linters and other similar utils are not required at runtime
+.prettierrc
+.eslintrc.js
